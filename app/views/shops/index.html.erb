@@ -1,0 +1,14 @@
+<h1>Shops</h1>
+
+<%= link_to 'home', root_path %>
+<br><br>
+
+<table>
+  <tbody>
+    <% @shops.each do |shop| %>
+      <tr>
+        <td><li><%= link_to shop.name, shop_path(shop) %></li></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

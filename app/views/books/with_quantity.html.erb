@@ -1,0 +1,27 @@
+<h1>Books with quantity among all shops</h1>
+
+<%= link_to 'home', root_path %>
+<br><br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>book id</th>
+      <th>title</th>
+      <th>quantity</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @books_quantities.each do |book| %>
+      <tr>
+        <td><%= book[:id] %></td>
+        <td><%= book[:title] %></td>
+        <td><%= book[:quantity] %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+ordered by quantity and book id.

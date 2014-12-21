@@ -1,0 +1,33 @@
+<h1><%= @shop.name %></h1>
+
+<%= link_to 'home', root_path %> >> <%= link_to 'shops', shops_path %>
+<br>
+<br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>author</th>
+      <th>author id</th>
+      <th>quantity</th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+    <% @shop_books.each do |shop_book| %>
+      <tr>
+        <td><%= shop_book.book.id %></td>
+        <td><%= shop_book.book.title %></td>
+        <td><%= shop_book.book.author.name %></td>
+        <td><%= shop_book.book.author.id %></td>
+        <td><%= shop_book.quantity %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+ordered by book title
