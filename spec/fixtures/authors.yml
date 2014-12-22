@@ -1,0 +1,13 @@
+#coding:utf-8
+
+stephen_king:
+  id: 1
+  name:  Stephen King
+
+neale_donald_walsch:
+  id: 2
+  name:  Neale Donald Walsch
+
+dave_thomas:
+  id: 3
+  name:  Dave Thomas

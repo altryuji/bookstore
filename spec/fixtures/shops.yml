@@ -1,0 +1,13 @@
+#coding:utf-8
+
+shinjuku_nishiguchi:
+  id: 1
+  name:  Shinjuku Nishiguchi
+
+ikebukuro:
+  id: 2
+  name:  Ikebukuro
+
+tokyo_yaesu:
+  id: 3
+  name:  Tokyo Yaesu

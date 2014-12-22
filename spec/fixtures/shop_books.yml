@@ -1,0 +1,67 @@
+#coding:utf-8
+
+shinjuku_nishiguchi_conversation_with_god:
+  id: 1
+#  shop: shinjuku_nishiguchi
+#  book: conversation_with_god
+  shop_id: 1
+  book_id: 4
+  quantity: 2
+
+shinjuku_nishiguchi_home_with_god:
+  id: 2
+#  shop: shinjuku_nishiguchi
+#  book: home_with_god
+  shop_id: 1
+  book_id: 5
+  quantity: 1
+
+shinjuku_nishiguchi_dream_catcher:
+  id: 3
+#  shop: shinjuku_nishiguchi
+#  book: dream_catcher
+  shop_id: 1
+  book_id: 2
+  quantity: 1
+
+shinjuku_nishiguchi_the_mist:
+  id: 4
+#  shop: shinjuku_nishiguchi
+#  book: the_mist
+  shop_id: 1
+  book_id: 1
+  quantity: 3
+
+
+ikebukuro_conversation_with_god:
+  id: 5
+#  shop: ikebukuro
+#  book: conversation_with_god
+  shop_id: 2
+  book_id: 4
+  quantity: 1
+
+ikebukuro_the_mist:
+  id: 6
+#  shop: ikebukuro
+#  book: the_mist
+  shop_id: 2
+  book_id: 1
+  quantity: 2
+
+
+tokyo_yaesu_dream_catcher:
+  id: 7
+#  shop: tokyo_yaesu
+#  book: dream_catcher
+  shop_id: 3
+  book_id: 2
+  quantity: 1
+
+tokyo_yaesu_the_green_mile:
+  id: 8
+#  shop: tokyo_yaesu
+#  book: the_green_mile
+  shop_id: 3
+  book_id: 3
+  quantity: 1

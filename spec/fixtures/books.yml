@@ -1,0 +1,31 @@
+#coding:utf-8
+
+the_mist:
+  id: 1
+  title: The Mist
+  author_id: 1
+
+dream_catcher:
+  id: 2
+  title: Dream Catcher
+  author_id: 1
+
+the_green_mile:
+  id: 3
+  title: The Green Mile
+  author_id: 1
+
+conversation_with_god:
+  id: 4
+  title: Conversation With God
+  author_id: 2
+
+home_with_god:
+  id: 5
+  title: Home with God
+  author_id: 2
+
+programming_ruby:
+  id: 6
+  title: Programming Ruby
+  author_id: 3
