@@ -5,13 +5,12 @@ class BooksController < ApplicationController
 
   def with_quantity
     book_id_sum_quantity_map = ShopBook.sum_quantity_per_book
-    books = Book.pluck(:id, :title)
+    @books_quantities = []
 
-    @books_quantities =
-      books.map do |id, title|
-        quantity = book_id_sum_quantity_map.try(:[], id) || 0
-        { id: id, title: title, quantity: quantity }
-      end
+    Book.select([:id, :title]).find_each do |book|
+      quantity = book_id_sum_quantity_map.try(:[], book.id) || 0
+      @books_quantities << { id: book.id, title: book.title, quantity: quantity }
+    end
 
     @books_quantities.sort_by! { |b| [-b[:quantity], b[:id]] }
   end
